@@ -5,8 +5,11 @@ docker run -p 80:80 registry.gitlab.com/bariskayar/mb_cve:latest
 or 
 
 download project and extract a folder.
+
 run the command below;
+
     docker build -t bariskayar/mb .
+    
 you should see the output like below;
 Sending build context to Docker daemon  121.3kB
 Step 1/3 : FROM tutum/apache-php
