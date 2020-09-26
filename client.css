@@ -1,0 +1,32 @@
+        body { font: 16px Helvetica, Arial; overflow-x: hidden; }
+        button,input { width: 12%; background: rgb(130, 200, 255); border: none; padding: 10px; }
+		table { spacing:0px; border-spacing:0px; cellpadding: 0px; cellspacing: 0px;}
+		.Container {
+			overflow: hidden;
+			height: 100%;
+			position: relative;
+			width: 100%;
+			will-change: overflow;
+			border: 1;
+		}
+
+
+		.messages{
+			overflow-y: scroll;
+			height: 300px;
+			padding: .5rem;
+		}
+
+		.messages {
+			flex: 1;
+		}
+		
+		.car{
+			height: 70%;
+			width : 100%;
+			padding: .5rem;
+		}
+
+		.car {
+			flex: 1;
+		}
