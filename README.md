@@ -1,6 +1,5 @@
-the redirect address in the https://developer.mercedes-benz.com/console should be
-http://localhost/mb/client.php
-to start app you should run,
+the redirect address in the https://developer.mercedes-benz.com/console should be http://localhost/mb/client.php to start app you should run,
+
 docker run -p 80:80 registry.gitlab.com/bariskayar/mb_cve:latest
 
 or 
